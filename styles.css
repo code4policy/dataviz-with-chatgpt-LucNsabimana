@@ -1,0 +1,44 @@
+/* Style for the chart container */
+#chart {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style for the bars in the bar chart */
+.bar {
+    fill: #8e44ad; /* Purple color for the bars */
+}
+
+/* Style for the axis and labels */
+.axis-label {
+    font-size: 14px; /* Readability */
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #333; /* Darker stroke for contrast */
+    shape-rendering: crispEdges;
+}
+
+/* Style for the axis text */
+.axis text {
+    font-size: 12px;
+}
+
+/* Style for the headline and sub-headline */
+.headline {
+    font-size: 24px;
+    text-decoration: underline;
+    text-anchor: middle;
+}
+
+.sub-headline {
+    font-size: 16px;
+    text-anchor: middle;
+}
+
+/* Style for the attribution text */
+.attribution {
+    font-size: 12px;
+    text-anchor: end;
+}
